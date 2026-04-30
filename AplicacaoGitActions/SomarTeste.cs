@@ -13,11 +13,11 @@ namespace AplicacaoGitActions
             // Arrange
             var calculadora = new Calculador();
             int numero1 = 5;
-            int numero2 = 10;
+            int numero2 = 15;
             // Act
             int resultado = calculadora.Somar(numero1, numero2);
             
-            Assert.Equal(15, resultado);
+            Assert.Equal(20, resultado);
         }
 
     }
