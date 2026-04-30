@@ -12,8 +12,8 @@ namespace AplicacaoGitActions
         {
             // Arrange
             var calculadora = new Calculador();
-            int numero1 = 6;
-            int numero2 = 15;
+            int numero1 = 7;
+            int numero2 = 14;
             // Act
             int resultado = calculadora.Somar(numero1, numero2);
             
