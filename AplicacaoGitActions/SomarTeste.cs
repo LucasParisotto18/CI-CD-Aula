@@ -12,12 +12,12 @@ namespace AplicacaoGitActions
         {
             // Arrange
             var calculadora = new Calculador();
-            int numero1 = 5;
+            int numero1 = 6;
             int numero2 = 15;
             // Act
             int resultado = calculadora.Somar(numero1, numero2);
             
-            Assert.Equal(20, resultado);
+            Assert.Equal(21, resultado);
         }
 
     }
